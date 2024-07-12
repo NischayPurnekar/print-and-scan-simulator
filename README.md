@@ -12,7 +12,7 @@ Available for download are the following models:
 2) A simulator that reverts images from the P&S domain back to the digital domain can be accessed [Google drive link] (https://drive.google.com/file/d/1QoDws1gGJ38vhW-souogWcbu_5H0IDm-/view?usp=sharing)
 
 # Citation
-If you utilize the simulators in your research, please reference our paper
+If you utilize the simulators in your research, please cite our paper
 
 @inproceedings{10.1145/3658664.3659635,
 author = {Purnekar, Nischay and Abady, Lydia and Tondi, Benedetta and Barni, Mauro},
