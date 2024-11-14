@@ -14,14 +14,16 @@ Available for download are the following models:
 To run the Python script, follow these steps:
 
 # Prerequisites
-1) Ensure Python is installed: You’ll need Python 3.7 or later. You can check the version by running:
-     python --version
-2) Install required libraries: Install the necessary Python packages. You can do this in your environment by running:
-     pip install torch torchvision numpy opencv-python
-3) Have the networks module ready:
+1) Ensure Python is installed: You’ll need Python 3.6 or later. You can check the version by running:
+
+    python --version
+3) Install required libraries: Install the necessary Python packages. You can do this in your environment by running:
+
+   pip install torch torchvision numpy opencv-python
+5) Have the networks module ready:
      The networks module (or networks.py file) should be in the same directory as your script, and it should contain the define_G function for loading the CycleGAN model.
      Ensure you also have the model file (from the Trained simulator models), latest_net_G_A.pth, in the working directory or adjust the path in the script if it's located elsewhere.
-4) Prepare an input image
+6) Prepare an input image
      Save an image file (e.g., input.jpg) in the same directory or specify its path in the code.
 
 # Steps to run the script
